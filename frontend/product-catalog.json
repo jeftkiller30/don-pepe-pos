@@ -1,0 +1,134 @@
+[
+  {
+    "sku": "DP001",
+    "name": "Cheetos Boliqueso 160 g",
+    "image": "cheetos",
+    "previousName": "Papas clásicas",
+    "stock": 48,
+    "minStock": 10,
+    "category": "Snacks",
+    "photo": "https://metroio.vteximg.com.br/arquivos/ids/530740/Cheetos-Boliqueso-160g-1-261019.jpg",
+    "source": "https://www.metro.pe/cheetos-boliqueso-160g-1014283/p"
+  },
+  {
+    "sku": "DP002",
+    "name": "Galletas Field Vainilla 37 g",
+    "image": "field-vainilla",
+    "previousName": "Galletas de vainilla",
+    "stock": 36,
+    "minStock": 10,
+    "category": "Galletas",
+    "photo": "https://metroio.vteximg.com.br/arquivos/ids/362242/GALLETA-VAINILLA-1UN-FIELD-GALLETA-VAINILLA-1-143077.jpg",
+    "source": "https://www.metro.pe/galletas-sabor-vainilla-field-paquete-37-g-2/p"
+  },
+  {
+    "sku": "DP003",
+    "name": "Inca Kola lata 355 ml",
+    "image": "inca-kola",
+    "previousName": "Refresco de naranja",
+    "stock": 40,
+    "minStock": 10,
+    "category": "Bebidas",
+    "photo": "https://metroio.vteximg.com.br/arquivos/ids/361807/Gaseosa-Inca-Kola-Lata-355-ml-1-144330818.jpg",
+    "source": "https://www.metro.pe/gaseosa-inca-kola-lata-355-ml-2/p"
+  },
+  {
+    "sku": "DP004",
+    "name": "Gomitas Ambrosoli Ambrosito Ácido 90 g",
+    "image": "ambrosoli-gomitas",
+    "previousName": "Gomitas frutales",
+    "stock": 64,
+    "minStock": 12,
+    "category": "Dulces",
+    "photo": "https://metroio.vteximg.com.br/arquivos/ids/502139/Gomitas-Ambrosoli-Ambrosito-cido-90g-1-249500.jpg",
+    "source": "https://www.metro.pe/gomitas-ambrosoli-ambrosito-acido-90g-1006832/p"
+  },
+  {
+    "sku": "DP005",
+    "name": "Jabón Bolívar Limón 190 g",
+    "image": "bolivar",
+    "previousName": "Jabón de tocador",
+    "stock": 8,
+    "minStock": 10,
+    "category": "Hogar",
+    "photo": "https://metroio.vteximg.com.br/arquivos/ids/575995/Jab-n-para-Ropa-Bol-var-Lim-n-190g-1-239828.jpg",
+    "source": "https://www.metro.pe/jabon-para-ropa-bolivar-limon-190g/p"
+  },
+  {
+    "sku": "DP006",
+    "name": "Lapicero Faber-Castell 060 azul",
+    "image": "faber-castell",
+    "previousName": "Lapicero azul",
+    "stock": 52,
+    "minStock": 10,
+    "category": "Útiles",
+    "photo": "https://metroio.vteximg.com.br/arquivos/ids/302041/Faber-Boligrafo-X-1-Azul-1-19908.jpg",
+    "source": "https://www.metro.pe/faber-castell-lapicero-tinta-seca-060-fine-azul-2/p"
+  },
+  {
+    "sku": "DP007",
+    "name": "Galletas Casino Chocolate 43 g · sixpack",
+    "image": "casino",
+    "previousName": "Galletas de chocolate",
+    "stock": 6,
+    "minStock": 10,
+    "category": "Galletas",
+    "photo": "https://metroio.vteximg.com.br/arquivos/ids/579284/348641002-01-81532.jpg",
+    "source": "https://www.metro.pe/sixpack-galleta-casino-sabor-chocolate-43g-348641002/p"
+  },
+  {
+    "sku": "DP008",
+    "name": "Agua Cielo Alcalina 650 ml",
+    "image": "cielo",
+    "previousName": "Agua personal",
+    "stock": 32,
+    "minStock": 10,
+    "category": "Bebidas",
+    "photo": "https://metroio.vteximg.com.br/arquivos/ids/544480/786716-01-51667.jpg",
+    "source": "https://www.metro.pe/agua-cielo-alcalina-botella-650-ml-786716/p"
+  },
+  {
+    "sku": "DP009",
+    "name": "Mentitas Ambrosoli 19 g",
+    "image": "ambrosoli-mentitas",
+    "previousName": "Caramelos surtidos",
+    "stock": 85,
+    "minStock": 15,
+    "category": "Dulces",
+    "photo": "https://metroio.vteximg.com.br/arquivos/ids/592538/Mentitas-Ambrosoli-19g-1-295878.jpg",
+    "source": "https://www.metro.pe/mentitas-ambrosoli-19g-1042943/p"
+  },
+  {
+    "sku": "DP010",
+    "name": "Maní Karinto Clásico Salado 100 g",
+    "image": "karinto",
+    "previousName": "Maní tostado",
+    "stock": 7,
+    "minStock": 10,
+    "category": "Snacks",
+    "photo": "https://metroio.vteximg.com.br/arquivos/ids/664918/401997-01-35746.jpg",
+    "source": "https://www.metro.pe/man-karinto-cl-sico-salado-100g-401997/p"
+  },
+  {
+    "sku": "DP011",
+    "name": "Borrador Dúo Vinifan",
+    "image": "vinifan",
+    "previousName": "Borrador escolar",
+    "stock": 24,
+    "minStock": 8,
+    "category": "Útiles",
+    "photo": "https://metroio.vteximg.com.br/arquivos/ids/418915/Borrador-Duo-Vinifan-1-109473107.jpg",
+    "source": "https://www.metro.pe/borrador-duo-vinifan/p"
+  },
+  {
+    "sku": "DP012",
+    "name": "Esponja Scotch-Brite Extrema",
+    "image": "scotch-brite",
+    "previousName": "Esponja de cocina",
+    "stock": 18,
+    "minStock": 8,
+    "category": "Hogar",
+    "photo": "https://metroio.vteximg.com.br/arquivos/ids/383152/Esponja-Extrema-Scotch-Brite-1-263613105.jpg",
+    "source": "https://www.metro.pe/esponja-scotch-brite-extrema-2/p"
+  }
+]

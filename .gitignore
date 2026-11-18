@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.angular/
+.env
+.runtime/
+*.log
+ACCESO-LOCAL.txt
+output/
+tmp/
+output/
+tmp/
+output/
+tmp/
+output/
+tmp/

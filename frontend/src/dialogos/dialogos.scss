@@ -1,0 +1,235 @@
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: #041c36a6;
+  backdrop-filter: blur(3px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  z-index: 100;
+  overflow: auto;
+}
+.modal {
+  background: white;
+  padding: 30px;
+  border-radius: 17px;
+  width: 460px;
+  max-width: 100%;
+  max-height: calc(100dvh - 48px);
+  overflow: auto;
+  position: relative;
+  box-shadow: 0 25px 100px #00152840;
+}
+.modal.wide {
+  width: 800px;
+}
+.modal h2 {
+  font-size: 23px;
+  letter-spacing: -0.7px;
+  margin-bottom: 20px;
+  padding-right: 15px;
+}
+.modal > p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #8290a2;
+}
+.modal-close {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+}
+.modal form > label,
+form .form-grid > label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #5c718d;
+}
+.modal form input,
+.modal form select,
+.modal form textarea {
+  width: 100%;
+  font-size: 12px;
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.full {
+  width: 100%;
+}
+.form-note {
+  font-size: 11px;
+  line-height: 1.6;
+  color: #9aa8b9;
+}
+.modal .full {
+  margin-top: 12px;
+  height: 42px;
+}
+.payment-total {
+  font-size: 44px;
+  font-weight: 750;
+  letter-spacing: -1.5px;
+  text-align: center;
+  background: #fff9e7;
+  border: 1px solid #fff0c4;
+  border-radius: 12px;
+  padding: 24px 10px;
+  margin-bottom: 22px;
+}
+.payment-total span {
+  display: block;
+  letter-spacing: 0;
+  font-size: 11px;
+  font-weight: 400;
+  color: #a59578;
+  margin-top: 8px;
+}
+.payment-options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 9px;
+  margin-bottom: 20px;
+}
+.payment-options button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  padding: 13px 3px;
+  border: 1px solid #e5ebf1;
+  border-radius: 9px;
+  background: white;
+  color: #8696ab;
+  font-size: 11px;
+}
+.payment-options button.selected {
+  color: #e18018;
+  border-color: #f0a54d;
+  background: #fff8ed;
+}
+.change-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  background: #eff8f5;
+  color: #47a185;
+  border-radius: 8px;
+  font-size: 13px;
+  margin-top: 12px;
+}
+.payment-notice {
+  font-size: 11px;
+  line-height: 1.7;
+  color: #8a7962;
+  background: #fff8ed;
+  padding: 12px;
+  border-radius: 8px;
+}
+.payment-notice .dp-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+.danger-button.ui-flat {
+  background: #e86651 !important;
+  color: white !important;
+}
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 24px;
+}
+.print-receipt {
+  text-align: center;
+  padding: 4px 0 12px;
+}
+.receipt-logo {
+  width: 135px;
+  margin-bottom: 12px;
+}
+.print-receipt h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  padding: 0;
+}
+.print-receipt p {
+  font-size: 10px;
+  color: #8796ab;
+  margin-bottom: 8px;
+}
+.print-receipt h3 {
+  margin: 16px 0 8px;
+}
+.receipt-line {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  gap: 15px;
+  font-size: 11px;
+  margin: 12px 0;
+}
+.receipt-line small {
+  display: block;
+  color: #9aa7b8;
+  font-size: 9px;
+  margin-top: 4px;
+}
+.receipt-rule {
+  border-top: 1px dashed #cfd9e4;
+  margin: 15px 0;
+}
+.receipt-total {
+  font-size: 18px;
+}
+.print-receipt > small {
+  font-size: 8px;
+}
+@media (max-width: 760px) {
+  .modal-backdrop {
+    padding: 12px;
+  }
+  .modal {
+    padding: 24px;
+    max-height: calc(100dvh - 24px);
+  }
+  .modal h2 {
+    font-size: 21px;
+  }
+  .form-grid {
+    gap: 10px;
+  }
+  .receipt-line {
+    font-size: 11px;
+  }
+}
+.modal form .fixed-price {
+  background: #f5f7fb;
+  color: #5c718d;
+  font-weight: 600;
+  cursor: default;
+}
+.modal form input[type="file"] {
+  height: auto;
+  min-height: 44px;
+  padding: 10px;
+  white-space: normal;
+  font-size: 11px;
+}
+.modal form input[type="file"]::file-selector-button {
+  border: 0;
+  background: #fff0dd;
+  color: #9b570d;
+  border-radius: 6px;
+  padding: 8px 10px;
+  margin-right: 8px;
+  cursor: pointer;
+}
